@@ -1,0 +1,40 @@
+Type: Jupyter Notebook Extension
+Name: KD-Snippets
+Description: |
+  Add a customizable menu item to insert code and markdown snippets.
+  Comes with extensive defaults for popular python modules, including fairly
+  complete listings of many important functions and constants, to save
+  searching through documentation.
+Main: index.js
+Compatibility: 4.x
+Parameters:
+
+- name: iais_snippets.insert_as_new_cell
+  description: "Insert snippets as new cells, rather than at cursor inside current cell"
+  input_type: checkbox
+  default: false
+
+- name: iais_snippets.sibling_selector
+  description: |
+    A JQuery selector for a sibling element next to whose parent element the
+    new menu(s) will be inserted. Other suitable examples include '#file_menu',
+    '#edit_menu', '#view_menu', '#insert_menu', '#cell_menu', and
+    '#kernel_menu'. To append the new menu as a submenu to the 'insert' menu
+    itself, you could use '#insert_menu>:last-child'.
+  input_type: text
+  default: '#help_menu'
+
+- name: iais_snippets.insert_before_sibling
+  description: |
+    Insert the new menu(s) before their sibling (the default value of false
+    means they are inserted after the sibling)
+  input_type: checkbox
+  default: false
+
+- name: iais_snippets.top_level_submenu_goes_left
+  description: |
+    iais_snippets menus are often quite big, and positioned at the right side of the
+    menu bar, so by default they open to the left of the menu. Set this to
+    false to get them to open to the right as normal.
+  input_type: checkbox
+  default: true

@@ -1,0 +1,6 @@
+include *.md
+include LICENSE
+
+recursive-include jupyter-config *.json
+recursive-include snippetlib *
+

@@ -1,0 +1,24 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jupyter-config/jupyter_notebook_config.d/snippetlib.json
+jupyter-config/nbconfig/notebook.d/snippetlib.json
+snippetlib/__init__.py
+snippetlib/menu.py
+snippetlib/paste_snippet.py
+snippetlib/upload_snippet.py
+snippetlib.egg-info/PKG-INFO
+snippetlib.egg-info/SOURCES.txt
+snippetlib.egg-info/dependency_links.txt
+snippetlib.egg-info/not-zip-safe
+snippetlib.egg-info/requires.txt
+snippetlib.egg-info/top_level.txt
+snippetlib/menu/KD-Snippets/Base imports.py
+snippetlib/menu/KD-Snippets/How to create new snippets.py
+snippetlib/menu/KD-Snippets/How to upload your snippets.py
+snippetlib/nbextension/config.yaml
+snippetlib/nbextension/index.js
+snippetlib/nbextension/menu.css
+snippetlib/nbextension/menu.js
