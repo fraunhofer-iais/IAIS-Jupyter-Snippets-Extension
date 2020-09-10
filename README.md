@@ -30,21 +30,6 @@ The follwoing Prerequisites must be installed:
 
  `Git`.
 
-# Installation 
-## Install via Pip and Autoindex
-
-### Base Snippets 
-`pip install -e https://maven.iais.fraunhofer.de/artifactory/kd-pythontoolbox/snippetlib_base/snippetlib-1.16-py3-none-any.whl `
-
-### Special Snippets 
-`pip install -e https://maven.iais.fraunhofer.de/artifactory/kd-pythontoolbox/snippetlib_special/snippetlib-1.11-py3-none-any.whl` 
-
-
-### Empty Snippets Extension 
-
-`pip install -e https://maven.iais.fraunhofer.de/artifactory/kd-pythontoolbox/snippetlib/snippetlib-1.64-py3-none-any.whl   `
-
-username and password: [see KD artifactory user](https://jira.iais.fraunhofer.de/wiki/display/ATLASSIAN/KD+artifactory+user)
 
 After installation enter the following in the three lines in the command line (Anaconda Prompt for Windows):
 
