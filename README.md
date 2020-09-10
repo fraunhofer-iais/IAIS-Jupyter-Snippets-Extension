@@ -16,8 +16,6 @@ The default menu provides the items:
 * `Plotting` which provides some regularly used snippets for `matplotlib`, `bokeh` and the `pandas` interface
 * `Utils` which provides some snippets which do not fit into the former categories but are still helpful
 
-With the jupyter extension a set of base snippets are provided, for which we are mostly sure, that they do their job as described. To supercharge the snippets menu, you can add more menu items by adding the §$%& build parameter **TODO**.
-
 As described below, there's also the possibility to add your own snippets, either by copy-pasting them or by reading them from a `.py` file.
 
 # Configuration 
@@ -40,7 +38,7 @@ After installation enter the following in the three lines in the command line (A
 
 ## Install via Make (Linux)
 
-` git clone https://jira.iais.fraunhofer.de/stash/projects/KDPYT/repos/snippetlibrary`
+` git clone https://github.com/fraunhofer-iais/IAIS-Jupyter-Snippets-Extension.git`
 ` cd snippetlibrary`
 ` git checkout master`
 ` make install`
@@ -50,7 +48,9 @@ After installation enter the following in the three lines in the command line (A
 ## Start Jupyter Notebook 
 
 • **Windows**: Open Anaconda prompt and type "jupyter notebook".
+
 • **Linux**: Open terminal and type "jupyter notebook“.
+
 • **The Jupyter front-end should open in a browser window**.
 
 ## How to add your own snippets
