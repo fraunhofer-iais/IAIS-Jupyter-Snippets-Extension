@@ -39,8 +39,11 @@ After installation enter the following in the three lines in the command line (A
 ## Install via Make (Linux)
 
 ` git clone https://github.com/fraunhofer-iais/IAIS-Jupyter-Snippets-Extension.git`
+
 ` cd snippetlibrary`
+
 ` git checkout master`
+
 ` make install`
 
 
