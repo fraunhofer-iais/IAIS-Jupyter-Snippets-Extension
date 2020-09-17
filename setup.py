@@ -16,12 +16,12 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 
 version = "1"
-snapshot_version = os.environ.get('SNAPSHOT_VERSION')
+# snapshot_version = os.environ.get('SNAPSHOT_VERSION')
 
 if snapshot_version != None:
-  version = version + "." + snapshot_version
+  version = version + "." 
 else:
-  version = version + "0" + str(snapshot_version)
+  version = version + "0" 
   
 #with open("requirements.txt","r") as f:
 #    dependencies = [line for line in f.read().splitlines()]
@@ -97,7 +97,7 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 5 - Production/Stable',
 
         # Indicate who your project is intended for
         'Intended Audience :: Developers',
