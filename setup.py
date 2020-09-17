@@ -16,7 +16,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 
 version = "1"
-# snapshot_version = os.environ.get('SNAPSHOT_VERSION')
+snapshot_version = os.environ.get('SNAPSHOT_VERSION')
 
 if snapshot_version != None:
   version = version + "." 
