@@ -19,7 +19,7 @@ version = "2"
 snapshot_version = os.environ.get('SNAPSHOT_VERSION')
 
 if snapshot_version != None:
-  version = version + "." 
+  version = version  
 else:
   version = version + "1" 
   
