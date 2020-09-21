@@ -19,9 +19,9 @@ version = "2"
 snapshot_version = os.environ.get('SNAPSHOT_VERSION')
 
 if snapshot_version != None:
-  version = version  
+  version = version + "." + snapshot_version 
 else:
-  version = version + "1" 
+  version = version + "0" + str(snapshot_version) 
   
 #with open("requirements.txt","r") as f:
 #    dependencies = [line for line in f.read().splitlines()]
