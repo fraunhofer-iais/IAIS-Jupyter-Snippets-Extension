@@ -15,7 +15,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 # Fields marked as "Optional" may be commented out.
 
 
-version = "2"
+version = "1"
 snapshot_version = os.environ.get('SNAPSHOT_VERSION')
 
 if snapshot_version != None:
@@ -79,7 +79,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='',  # Optional
+    url='https://github.com/fraunhofer-iais/IAIS-Jupyter-Snippets-Extension',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
