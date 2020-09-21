@@ -143,7 +143,7 @@ setup(
 
     
     install_requires= ['ipywidgets<=7.5.1',
-    'notebook<=6.0.3',
+    # 'notebook<=6.0.3',
     ],  # Optional
    
     # List additional groups of dependencies here (e.g. development
