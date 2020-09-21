@@ -15,7 +15,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 # Fields marked as "Optional" may be commented out.
 
 
-version = "1"
+version = "2"
 snapshot_version = os.environ.get('SNAPSHOT_VERSION')
 
 if snapshot_version != None:
