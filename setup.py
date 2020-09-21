@@ -141,9 +141,11 @@ setup(
     # For an analysis of "install_requires" vs pip's requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
 
+    
     install_requires= ['ipywidgets<=7.5.1',
     'notebook<=6.0.3',
-    ]
+    ],  # Optional
+   
     # List additional groups of dependencies here (e.g. development
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
