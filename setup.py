@@ -142,8 +142,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
 
     
-    install_requires= ['ipywidgets<=7.5.1',
-    'notebook<=6.0.3',
+    install_requires= [
     ],  # Optional
 
     # List additional groups of dependencies here (e.g. development
