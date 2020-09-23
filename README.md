@@ -4,7 +4,7 @@
 
 The idea of the Snippet Library is to create a tool for rapid prototyping with the aim of quickly and easily developing data analysis workflows. It adds a customizable menu to the Jupyter notebooks to insert code snippets, code examples and boilerplate code.
 
-![Snippets Showcase](SnippetsShowcase.png)
+![Snippets Showcase](https://github.com/fraunhofer-iais/IAIS-Jupyter-Snippets-Extension/raw/master/SnippetsShowcase.png)
 
 This Jupyter extension is based on the [Jupyter notebook snippets menu](https://github.com/moble/jupyter_boilerplate) extension, which adds one ore more menu items after the `Help` menu in Jupyter notebooks. The menu provides small code snippets which are supposed to make your life easiser when playing around with data. How do I read a `csv` file? There´s a snippet for that. How do I visualize missing values in a pandas dataframe? There´s a snippet for that. How do I plot the correlation matrix of my pandas dataframe (and make it look good)?. There's a snippet for that. You get the idea.
 
@@ -24,16 +24,15 @@ The follwoing Prerequisites must be installed:
 
 `Anaconda` 
 
-`(Python 3.X)`
+`Python 3.X`
 
- `Git`.
+`Git`
 
+# Installation 
 
-After installation enter the following in the three lines in the command line (Anaconda Prompt for Windows):
+You can directly install the snippet library from pip using this command 
 
-1. jupyter nbextension install --py snippetlib --sys-prefix
-2. jupyter nbextension enable --py snippetlib --sys-prefix
-3. jupyter serverextension enable --py snippetlib --sys-prefix
+`pip install snippetlib`
 
 
 ## Install via Make (Linux)
@@ -45,6 +44,13 @@ After installation enter the following in the three lines in the command line (A
 ` git checkout master`
 
 ` make install`
+
+
+After installation enter the following in the three lines in the command line (Anaconda Prompt for Windows):
+
+`jupyter nbextension install --py snippetlib --sys-prefix`
+`jupyter nbextension enable --py snippetlib --sys-prefix`
+`jupyter serverextension enable --py snippetlib --sys-prefix`
 
 
 # Operating instructions
@@ -74,7 +80,7 @@ To create new snippets,on the jupyter notebook,paste the following in a new cell
 
 Refresh the page and on the Snippets menu you should see the newly added snippet.
 
-![Add your own snippets](add_snippets.png)
+![Add your own snippets](https://github.com/fraunhofer-iais/IAIS-Jupyter-Snippets-Extension/raw/master/add_snippets.png)
 
 # Credits and Acknolegements
 The development of this Jupyter extension was supported by the Fraunhofer Lighhouse Project [Machine Learning for Production (ML4P)](https://www.fraunhofer.de/de/forschung/fraunhofer-initiativen/fraunhofer-leitprojekte/ml4p.html). The main development has been carried out by the Knowledge Discovery Department of the [Fraunhofer IAIS](https://www.iais.fraunhofer.de).
