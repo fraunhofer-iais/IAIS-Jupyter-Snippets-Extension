@@ -59,6 +59,7 @@ After installation enter the following in the three lines in the command line (A
 ## How to add your own snippets
 
 To upload a new snippet on the jupyter notebook,paste the following in a new cell. 
+
 `from snippetlib import upload_snippet as us`
 
 `upload_snippets = us.Upload_Snippet()` 
